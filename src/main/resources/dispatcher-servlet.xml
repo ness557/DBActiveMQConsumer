@@ -21,7 +21,7 @@
 
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 
-        <property name="locations" value="application.properties"/>
+        <property name="locations" value="file:application.properties"/>
     </bean>
 
     <bean id="hibernateJpaVendorAdapter"
